@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VantaVisa | Visa Assistance</title>
+
+  <!-- MANUALLY CONNECT CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="navbar">
+  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+
+  <a href="#home" class="logo">✈ Vanta<span>Visa</span></a>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#process">How It Works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <p class="eyebrow">INDEPENDENT VISA ASSISTANCE</p>
+        <h1>Your journey<br>begins <span>here.</span></h1>
+        <p class="intri">Get organized, understand your options, and prepare for your international travel plans with confidence.</p>
+        <a href="#contact" class="button">Get Started ↗</a>
+      </div>
+      <div class="hero-art">
+  <div class="flying-banner">
+    <span class="hero-plane">✈</span>
+    <div class="banner-cloth">
+      <span class="banner-brand">VantaVisa</span>
+      <span class="banner-tagline">YOUR JOURNEY STARTS HERE</span>
+    </div>
+  </div>
+  <p>✦ EXPLORE · PREPARE · TRAVEL ✦</p>
+</div>
+    </section>
+    <section class="section destinations" id="destinations">
+  <p class="eyebrow">THE WORLD AWAITS</p>
+  <h2>Where will your journey take you?</h2>
+  <p class="destination-intro">
+    Explore exciting destinations and let VantaVisa help you prepare for your next journey.
+  </p>
+
+  <div class="destination-grid">
+
+    <div class="destination-card">
+      <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=800&q=80" alt="Eiffel Tower in Paris">
+      <div class="destination-info">
+        <h3>Paris, France</h3>
+        <p>Discover the Eiffel Tower, beautiful streets, and French culture.</p>
+      </div>
+    </div>
+
+    <div class="destination-card">
+      <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=800&q=80" alt="New York City skyline">
+      <div class="destination-info">
+        <h3>New York, USA</h3>
+        <p>Explore famous landmarks, exciting city life, and iconic sights.</p>
+      </div>
+    </div>
+
+    <div class="destination-card">
+      <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80" alt="Dubai skyline">
+      <div class="destination-info">
+        <h3>Dubai, UAE</h3>
+        <p>Experience modern architecture and remarkable city views.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="visa-flag-section" id="visa-destinations">
+  <p class="eyebrow">A WORLD OF OPPORTUNITIES</p>
+  <h2>People Around the World</h2>
+  <p class="destination-intro">
+    Your journey to new opportunities starts with VantaVisa.
+  </p>
+
+  <div class="visa-flag-grid">
+    <div class="visa-flag-card">
+      <img src="https://images.pexels.com/photos/10628107/pexels-photo-10628107.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Man holding Pakistani flag">
+      <h3>Pakistan 🇵🇰</h3>
+    </div>
+
+    <div class="visa-flag-card">
+      <img src="https://images.pexels.com/photos/18117324/pexels-photo-18117324.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Man holding Turkish flag">
+      <h3>Turkey 🇹🇷</h3>
+    </div>
+
+    <div class="visa-flag-card">
+      <img src="https://images.pexels.com/photos/8489796/pexels-photo-8489796.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Man holding Indian flag">
+      <h3>India 🇮🇳</h3>
+    </div>
+
+    <div class="visa-flag-card">
+      <img src="https://images.pexels.com/photos/4669112/pexels-photo-4669112.jpeg?auto=compress&cs=tinysrgb&w=800" alt="People with American flags">
+      <h3>United States 🇺🇸</h3>
+    </div>
+
+    <div class="visa-flag-card">
+     <img
+  src="https://images.pexels.com/photos/30056698/pexels-photo-30056698.jpeg?auto=compress&cs=tinysrgb&w=800"
+  alt="Person celebrating with the British Union Jack flag">
+      <h3>United Kingdom 🇬🇧</h3>
+    </div>
+
+    <div class="visa-flag-card">
+      <img src="https://images.pexels.com/photos/12072282/pexels-photo-12072282.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Person holding Canadian flag">
+      <h3>Canada 🇨🇦</h3>
+    </div>
+  </div>
+</section>
+
+
+    <section class="section" id="services">
+      <p class="eyebrow">WHAT WE OFFER</p>
+      <h2>Support for your <span>next chapter.</span></h2>
+      <div class="cards">
+        <article class="card">
+          <div class="symbol">◎</div>
+          <h3>Visitor & Tourist</h3>
+          <p>Guidance with understanding visitor visa requirements and organizing travel documents.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">⌂</div>
+          <h3>Study Preparation</h3>
+          <p>Organize your study travel checklist and learn about common document requirements.</p>
+        </article>
+        <article class="card">
+          <div class="symbol">⇄</div>
+          <h3>Business Travel</h3>
+          <p>Prepare for business trips by understanding relevant travel requirements.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <p class="eyebrow">OUR APPROACH</p>
+      <h2>One step at a time.</h2>
+      <p>We work hand to hand with every government, so tell us your plan and watch us make it happen.</p>
+    </section>
+
+<!-- VantaVisa Country Services -->
+<section class="country-services" id="services">
+  <div class="country-container">
+
+    <div class="country-heading">
+      <span class="section-tag">EXPLORE YOUR OPTIONS</span>
+      <h2>Where Would You Like to Go?</h2>
+      <p>Explore our visa consultation services for popular destinations.</p>
+    </div>
+
+    <div class="country-grid">
+
+      <article class="country-card">
+        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=700&q=80" alt="San Francisco skyline in the United States">
+        <div class="country-card-content">
+          <h3>🇺🇸 United States</h3>
+          <p>Explore visit, student and business visa options.</p>
+          <a href="#apply" class="country-link">Apply for Consultation →</a>
+        </div>
+      </article>
+
+      <article class="country-card">
+        <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=700&q=80" alt="London city skyline in the United Kingdom">
+        <div class="country-card-content">
+          <h3>🇬🇧 United Kingdom</h3>
+          <p>Explore visitor, student and work visa options.</p>
+          <a href="#apply" class="country-link">Apply for Consultation →</a>
+        </div>
+      </article>
+
+      <article class="country-card">
+        <img src="https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=700&q=80" alt="Toronto skyline in Canada">
+        <div class="country-card-content">
+          <h3>🇨🇦 Canada</h3>
+          <p>Explore visitor, study and work visa options.</p>
+          <a href="#apply" class="country-link">Apply for Consultation →</a>
+        </div>
+      </article>
+
+      <article class="country-card">
+        <img src="https://images.unsplash.com/photo-1506973035872-a4f9f5b5a7b4?auto=format&fit=crop&w=700&q=80" alt="Sydney Harbour in Australia" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=700&q=80';">
+        <div class="country-card-content">
+          <h3>🇦🇺 Australia</h3>
+          <p>Explore visitor and student visa options.</p>
+          <a href="#apply" class="country-link">Apply for Consultation →</a>
+        </div>
+      </article>
+
+      <article class="country-card">
+        <img src="https://images.unsplash.com/photo-1560969184-10fe8719e047?auto=format&fit=crop&w=700&q=80" alt="Brandenburg Gate in Germany">
+        <div class="country-card-content">
+          <h3>🇩🇪 Germany</h3>
+          <p>Explore visitor, study and business visa options.</p>
+          <a href="#apply" class="country-link">Apply for Consultation →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <section id="apply" class="visa-application">
+  <div class="application-container">
+
+    <div class="application-heading">
+      <span class="section-tag">START YOUR JOURNEY</span>
+      <h2>Visa Application Form</h2>
+      <p>Tell us about your travel plans to get started.</p>
+    </div>
+
+<form id="visaApplicationForm" action="https://formsubmit.co/vantavisa.service@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="New VantaVisa Application">
+<input type="hidden" name="_captcha" value="true">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fullName">Full Name *</label>
+          <input type="text" id="fullName"
+            name="fullName" placeholder="Enter your full name"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email"
+            name="email" placeholder="Enter your email"
+            required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone"
+            name="phone" placeholder="Enter your phone number"
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="nationality">Your Nationality *</label>
+          <select id="nationality" name="nationality" required>
+            
+<option value="">Select nationality</option>
+<option value="Afghan">Afghan</option>
+<option value="Albanian">Albanian</option>
+<option value="Algerian">Algerian</option>
+<option value="American">American</option>
+<option value="Andorran">Andorran</option>
+<option value="Angolan">Angolan</option>
+<option value="Antiguan and Barbudan">Antiguan and Barbudan</option>
+<option value="Argentine">Argentine</option>
+<option value="Armenian">Armenian</option>
+<option value="Australian">Australian</option>
+<option value="Austrian">Austrian</option>
+<option value="Azerbaijani">Azerbaijani</option>
+<option value="Bahamian">Bahamian</option>
+<option value="Bahraini">Bahraini</option>
+<option value="Bangladeshi">Bangladeshi</option>
+<option value="Barbadian">Barbadian</option>
+<option value="Belarusian">Belarusian</option>
+<option value="Belgian">Belgian</option>
+<option value="Belizean">Belizean</option>
+<option value="Beninese">Beninese</option>
+<option value="Bhutanese">Bhutanese</option>
+<option value="Bolivian">Bolivian</option>
+<option value="Bosnian">Bosnian</option>
+<option value="Botswanan">Botswanan</option>
+<option value="Brazilian">Brazilian</option>
+<option value="British">British</option>
+<option value="Bruneian">Bruneian</option>
+<option value="Bulgarian">Bulgarian</option>
+<option value="Burkinabe">Burkinabe</option>
+<option value="Burundian">Burundian</option>
+<option value="Cambodian">Cambodian</option>
+<option value="Cameroonian">Cameroonian</option>
+<option value="Canadian">Canadian</option>
+<option value="Cape Verdean">Cape Verdean</option>
+<option value="Central African">Central African</option>
+<option value="Chadian">Chadian</option>
+<option value="Chilean">Chilean</option>
+<option value="Chinese">Chinese</option>
+<option value="Colombian">Colombian</option>
+<option value="Comorian">Comorian</option>
+<option value="Congolese">Congolese</option>
+<option value="Costa Rican">Costa Rican</option>
+<option value="Croatian">Croatian</option>
+<option value="Cuban">Cuban</option>
+<option value="Cypriot">Cypriot</option>
+<option value="Czech">Czech</option>
+<option value="Danish">Danish</option>
+<option value="Djiboutian">Djiboutian</option>
+<option value="Dominican">Dominican</option>
+<option value="Dutch">Dutch</option>
+<option value="Ecuadorian">Ecuadorian</option>
+<option value="Egyptian">Egyptian</option>
+<option value="Emirati">Emirati</option>
+<option value="Equatorial Guinean">Equatorial Guinean</option>
+<option value="Eritrean">Eritrean</option>
+<option value="Estonian">Estonian</option>
+<option value="Eswatini">Eswatini</option>
+<option value="Ethiopian">Ethiopian</option>
+<option value="Fijian">Fijian</option>
+<option value="Filipino">Filipino</option>
+<option value="Finnish">Finnish</option>
+<option value="French">French</option>
+<option value="Gabonese">Gabonese</option>
+<option value="Gambian">Gambian</option>
+<option value="Georgian">Georgian</option>
+<option value="German">German</option>
+<option value="Ghanaian">Ghanaian</option>
+<option value="Greek">Greek</option>
+<option value="Grenadian">Grenadian</option>
+<option value="Guatemalan">Guatemalan</option>
+<option value="Guinean">Guinean</option>
+<option value="Guyanese">Guyanese</option>
+<option value="Haitian">Haitian</option>
+<option value="Honduran">Honduran</option>
+<option value="Hungarian">Hungarian</option>
+<option value="Icelandic">Icelandic</option>
+<option value="Indian">Indian</option>
+<option value="Indonesian">Indonesian</option>
+<option value="Iranian">Iranian</option>
+<option value="Iraqi">Iraqi</option>
+<option value="Irish">Irish</option>
+<option value="Israeli">Israeli</option>
+<option value="Italian">Italian</option>
+<option value="Ivorian">Ivorian</option>
+<option value="Jamaican">Jamaican</option>
+<option value="Japanese">Japanese</option>
+<option value="Jordanian">Jordanian</option>
+<option value="Kazakh">Kazakh</option>
+<option value="Kenyan">Kenyan</option>
+<option value="Kuwaiti">Kuwaiti</option>
+<option value="Kyrgyz">Kyrgyz</option>
+<option value="Laotian">Laotian</option>
+<option value="Latvian">Latvian</option>
+<option value="Lebanese">Lebanese</option>
+<option value="Liberian">Liberian</option>
+<option value="Libyan">Libyan</option>
+<option value="Lithuanian">Lithuanian</option>
+<option value="Luxembourgish">Luxembourgish</option>
+<option value="Malagasy">Malagasy</option>
+<option value="Malawian">Malawian</option>
+<option value="Malaysian">Malaysian</option>
+<option value="Maldivian">Maldivian</option>
+<option value="Malian">Malian</option>
+<option value="Maltese">Maltese</option>
+<option value="Mauritanian">Mauritanian</option>
+<option value="Mauritian">Mauritian</option>
+<option value="Mexican">Mexican</option>
+<option value="Moldovan">Moldovan</option>
+<option value="Monegasque">Monegasque</option>
+<option value="Mongolian">Mongolian</option>
+<option value="Montenegrin">Montenegrin</option>
+<option value="Moroccan">Moroccan</option>
+<option value="Mozambican">Mozambican</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Namibian">Namibian</option>
+<option value="Nepalese">Nepalese</option>
+<option value="New Zealander">New Zealander</option>
+<option value="Nicaraguan">Nicaraguan</option>
+<option value="Nigerian">Nigerian</option>
+<option value="Nigerien">Nigerien</option>
+<option value="North Korean">North Korean</option>
+<option value="North Macedonian">North Macedonian</option>
+<option value="Norwegian">Norwegian</option>
+<option value="Omani">Omani</option>
+<option value="Pakistani">Pakistani</option>
+<option value="Palestinian">Palestinian</option>
+<option value="Panamanian">Panamanian</option>
+<option value="Papua New Guinean">Papua New Guinean</option>
+<option value="Paraguayan">Paraguayan</option>
+<option value="Peruvian">Peruvian</option>
+<option value="Polish">Polish</option>
+<option value="Portuguese">Portuguese</option>
+<option value="Qatari">Qatari</option>
+<option value="Romanian">Romanian</option>
+<option value="Russian">Russian</option>
+<option value="Rwandan">Rwandan</option>
+<option value="Saudi Arabian">Saudi Arabian</option>
+<option value="Senegalese">Senegalese</option>
+<option value="Serbian">Serbian</option>
+<option value="Sierra Leonean">Sierra Leonean</option>
+<option value="Singaporean">Singaporean</option>
+<option value="Slovak">Slovak</option>
+<option value="Slovenian">Slovenian</option>
+<option value="Somali">Somali</option>
+<option value="South African">South African</option>
+<option value="South Korean">South Korean</option>
+<option value="South Sudanese">South Sudanese</option>
+<option value="Spanish">Spanish</option>
+<option value="Sri Lankan">Sri Lankan</option>
+<option value="Sudanese">Sudanese</option>
+<option value="Surinamese">Surinamese</option>
+<option value="Swedish">Swedish</option>
+<option value="Swiss">Swiss</option>
+<option value="Syrian">Syrian</option>
+<option value="Taiwanese">Taiwanese</option>
+<option value="Tajik">Tajik</option>
+<option value="Tanzanian">Tanzanian</option>
+<option value="Thai">Thai</option>
+<option value="Togolese">Togolese</option>
+<option value="Tongan">Tongan</option>
+<option value="Trinidadian and Tobagonian">Trinidadian and Tobagonian</option>
+<option value="Tunisian">Tunisian</option>
+<option value="Turkish">Turkish</option>
+<option value="Turkmen">Turkmen</option>
+<option value="Ugandan">Ugandan</option>
+<option value="Ukrainian">Ukrainian</option>
+<option value="Uruguayan">Uruguayan</option>
+<option value="Uzbek">Uzbek</option>
+<option value="Venezuelan">Venezuelan</option>
+<option value="Vietnamese">Vietnamese</option>
+<option value="Yemeni">Yemeni</option>
+<option value="Zambian">Zambian</option>
+<option value="Zimbabwean">Zimbabwean</option>
+<option value="Other">Other</option>
+
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="destination">Destination Country *</label>
+          <select id="destination" name="destination" required>
+            <option value="">Choose a country</option>
+            <option value="United States">United States</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="visaType">Visa Type *</label>
+          <select id="visaType" name="visaType" required>
+            <option value="">Choose visa type</option>
+            <option value="Tourist">Tourist / Visit Visa</option>
+            <option value="Student">Student Visa</option>
+            <option value="Work">Work Visa</option>
+            <option value="Business">Business Visa</option>
+            <option value="Family">Family Visa</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="travelDate">Expected Travel Date</label>
+          <input type="date" id="travelDate"
+            name="travelDate">
+        </div>
+
+        <div class="form-group">
+          <label for="travelers">Number of Travelers *</label>
+          <select id="travelers" name="travelers" required>
+            <option value="">Select number</option>
+            <option value="1">1 traveler</option>
+            <option value="2">2 travelers</option>
+            <option value="3">3 travelers</option>
+            <option value="4">4 travelers</option>
+            <option value="5+">5 or more</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Additional Information</label>
+        <textarea id="message" name="message" rows="4"
+          placeholder="Tell us about your travel plans (optional)"></textarea>
+      </div>
+
+      <button type="submit" class="application-submit">
+        Submit Application Request
+      </button>
+
+      <p class="form-note">
+        Submitting this form requests a consultation.
+      </p>
+
+      <p id="formMessage" role="status"></p>
+
+    </form>
+  </div>
+</section>
+
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">CONTACT US</p>
+      <h2>Where would you like to <span>go?</span></h2>
+      
+<form id="contactForm" action="https://formsubmit.co/vantavisa.service@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New VantaVisa Enquiry">
+<input type="hidden" name="_captcha" value="true">
+ 
+
+        <label for="name">Your name</label>
+        <input id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="destination">Destination</label>
+        <select id="destination" name="destination" required>
+          <option value="">Choose destination</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+          <option>Canada</option>
+          <option>Schengen Area</option>
+          <option>Other</option>
+        </select>
+        <button class="button" type="submit">Continue ↗</button>
+        <p id="status" role="status"></p>
+        <small>we are to make you archive yor dream.</small>
+      </form>
+    </section>
+  </main>
+
+  
+<section class="section testimonials" id="testimonials">
+  <p class="eyebrow">CLIENT EXPERIENCES</p>
+  <h2>What clients say about <span>VantaVisa</span></h2>
+  <p class="testimonial-intro">
+    We welcome honest feedback from people who have used our services.
+  </p>
+
+<div class="testimonial-card">
+  <div class="testimonial-rating">★★★★★</div>
+  <div class="client-avatar">H</div>
+<h4>Habib O.</h4>
+  <p>
+    “From Morroco, i never believed but all thanks to allah that vantavisa changed my life.”
+  </p>
+ <span class="testimonial-author">VantaVisa Client</span>
+</div>
+
+<div class="testimonial-card">
+  <div class="testimonial-rating">★★★★★</div>
+  <div class="client-avatar">M</div>
+<h4>Mohammed A.</h4>
+  <p>
+    “From Turkey, My Family and i are grateful to vanta visa for being a place we can trust. Thank You Vanta.”
+  </p>
+  <span class="testimonial-author">VantaVisa Client</span>
+</div>
+
+<div class="testimonial-card">
+  <div class="testimonial-rating">★★★★☆</div>
+   <div class="client-avatar">M</div>
+<h4>Mustafa A.</h4>
+  <p>
+    “i'm from Pakistan and all thanks to Vanta visa for makng my dream to US comes through.”
+  </p>
+  <span class="testimonial-author">VantaVisa Client</span>
+</div>
+
+  <h3>Share your experience</h3>
+  <p>Tell us about your experience with VantaVisa.</p>
+
+  <form id="testimonialForm"
+        action="https://formsubmit.co/vantavisa.service@gmail.com"
+        method="POST">
+
+    <input type="hidden" name="_subject" value="New VantaVisa Testimonial">
+    <input type="hidden" name="_captcha" value="true">
+
+    <label for="reviewName">Your name</label>
+    <input id="reviewName" name="reviewName"
+           type="text" placeholder="Enter your name" required>
+
+    <label for="reviewRating">Your rating</label>
+    <select id="reviewRating" name="reviewRating" required>
+      <option value="">Choose a rating</option>
+      <option value="5 stars">★★★★★ — Excellent</option>
+      <option value="4 stars">★★★★ — Very good</option>
+      <option value="3 stars">★★★ — Good</option>
+      <option value="2 stars">★★ — Fair</option>
+      <option value="1 star">★ — Poor</option>
+    </select>
+
+    <label for="reviewMessage">Your feedback</label>
+    <textarea id="reviewMessage" name="reviewMessage"
+              rows="5" maxlength="1500"
+              placeholder="Share your honest experience..." required></textarea>
+
+   
+<label class="feedback-consent">
+  <input type="checkbox" name="publicationConsent"
+         value="Yes, I give permission" required>
+  <span>I give VantaVisa permission to publish my feedback after review.</span>
+</label>
+ 
+
+    <button class="button" type="submit">Submit Testimonial ↗</button>
+
+    <p class="form-note">
+      Please do not include passport numbers or other sensitive personal information.
+      Submissions are sent for review and will not automatically appear publicly.
+    </p>
+  </form>
+</section>
+
+
+  <footer>VantaVisa · Independent private visa assistance · we work hand to hand with the government of every country of your choice.</footer>
+
+  <!-- MANUALLY CONNECT JAVASCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- VantaVisa WhatsApp Contact Button -->
+<a
+  href="https://wa.me/447462163315?text=Hello%20VantaVisa%2C%20I%20want%20to%20ask%20about%20visa%20services."
+  class="whatsapp-button"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Contact VantaVisa on WhatsApp"
+>
+  <span class="whatsapp-icon">☏</span>
+  <span>Chat with us</span>
+</a>
